@@ -47,5 +47,6 @@ class PlaceViewHolder(v: View) : RecyclerView.ViewHolder(v) {
 
     fun bind(item: Place) {
         view.place_title.text = item.name
+        view.place_tag.text = item.tag
     }
 }
