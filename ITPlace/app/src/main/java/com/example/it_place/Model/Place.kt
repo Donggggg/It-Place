@@ -2,5 +2,11 @@ package com.example.it_place.Model
 
 import java.io.Serializable
 
-class Place (var rId: Int, var title: String, var tag: String, var number: Int, var url: String  ) : Serializable{
+class Place (
+    var name: String ,
+    var max_num: Int,
+    var tag: String,
+    var landscape_url: String,
+    var profile_url: String,
+    var current_num: Int) : Serializable{
 }
